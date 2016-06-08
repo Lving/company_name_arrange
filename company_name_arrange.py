@@ -42,3 +42,5 @@ def clean_list():  # 取出公司中间部分关键词
         print ''.join(exclu)
         key_name.append(''.join(exclu))
     return key_name
+
+#------------------------set 的长度大于一的话，就认为两个公司的名称类似——————————————————————————
